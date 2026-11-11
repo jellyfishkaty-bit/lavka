@@ -1,0 +1,15 @@
+00:00 +0: loading /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart
+00:00 +0: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +1: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +2: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +3: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +4: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +5: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +6: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +7: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +8: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +9: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:00 +10: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: real form creates project and row tap commits
+00:02 +11: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: small screen, long title, large text has no overflow
+00:03 +12: /workspace/scratch/5bc42718841c/lavka/test/ui_test.dart: capture actual Flutter render with committed sample data
+00:04 +13: All tests passed!

@@ -1,0 +1,8 @@
+Version 0.2.1+4
+Flutter analyze: PASS
+Flutter tests: 20/20 PASS
+Build APK debug: PASS
+Native SQLite registration and all scene assets: PASS
+Montserrat and OFL packaged; obsolete typefaces absent from active FontManifest: PASS
+Signing certificate matches 0.2: PASS
+Physical phone execution for 0.2.1: NOT RUN

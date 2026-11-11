@@ -1,0 +1,8 @@
+Version 0.2.0+3; applicationId ru.katya.lavka
+Flutter 3.47.9 / Dart 3.13.7 / JDK 21.0.13
+Android SDK 36 / minSdk 24 / targetSdk 36
+flutter build apk --debug --no-pub: PASS
+APK packaging gate: Native Flutter registration, SQLite plugin, schema, project icon, Pixelify font and all 15 scene PNGs: PASS
+Signing certificate equals v0.1.1: PASS
+Physical Android device execution for v0.2: NOT RUN
+Visuals captured by genuine Flutter widget rendering; not physical device screenshots
