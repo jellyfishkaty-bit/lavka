@@ -29,8 +29,8 @@ void main() {
       await tester.pump();
     }
     expect(room.isLoaded, isTrue);
-    final bytes = await File('../../../native_grid/stole_native_82x124.png')
-        .readAsBytes();
+    final bytes = File('../../../native_grid/stole_native_82x124.png')
+        .readAsBytesSync();
     final image = await tester.runAsync(() async {
       final codec = await ui.instantiateImageCodec(bytes);
       final frame = await codec.getNextFrame();
