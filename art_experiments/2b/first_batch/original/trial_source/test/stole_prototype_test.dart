@@ -43,8 +43,23 @@ void main() {
     room.projectSprites[KnittingVariant.stole] = Sprite(image);
     room.selectVariant(KnittingVariant.stole);
     final component = room.projectSprite!;
-    component.position = Vector2(198, 281 - 124 + room.geometry.shift('desk'));
-    component.size = Vector2(82, 124);
+    // The original desk PNG is 1774 x 887. At this horizontal position its
+    // visible tabletop starts at source y=49: 49 / 887 * 120 = 6.63 room units.
+    // Place the top of the stole just inside it; the rest hangs in front.
+    final desk = room.sprites['desk']!;
+    component.position = Vector2(198, desk.position.y + 8);
+    component.size = Vector2(41, 62); // Half-size, original 82:124 aspect.
+    expect(desk.size.x, 240);
+    expect(desk.size.y, 120);
+    expect(component.position.x, greaterThanOrEqualTo(desk.position.x));
+    expect(component.position.x + component.size.x,
+        lessThanOrEqualTo(desk.position.x + desk.size.x));
+    expect(component.position.y, greaterThanOrEqualTo(desk.position.y + 6.63));
+    expect(component.position.y, lessThan(desk.position.y + 30));
+    expect(component.position.y + component.size.y,
+        lessThanOrEqualTo(desk.position.y + 75));
+    expect(component.priority, greaterThan(desk.priority));
+    expect(component.size.x / component.size.y, closeTo(82 / 124, 0.00001));
     expect(component.paint.filterQuality, FilterQuality.none);
     await tester.pump(const Duration(milliseconds: 30));
     await tester.runAsync(() async {
