@@ -1,0 +1,278 @@
+{
+  "chair": {
+    "source_cell": [
+      0,
+      0,
+      362,
+      390
+    ],
+    "trim": [
+      59,
+      36,
+      330,
+      366
+    ],
+    "size": [
+      271,
+      330
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "desk": {
+    "source_cell": [
+      362,
+      0,
+      724,
+      390
+    ],
+    "trim": [
+      10,
+      82,
+      352,
+      356
+    ],
+    "size": [
+      342,
+      274
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "bookcase": {
+    "source_cell": [
+      724,
+      0,
+      1086,
+      390
+    ],
+    "trim": [
+      64,
+      18,
+      312,
+      363
+    ],
+    "size": [
+      248,
+      345
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "mailbox": {
+    "source_cell": [
+      1086,
+      0,
+      1448,
+      390
+    ],
+    "trim": [
+      96,
+      34,
+      277,
+      359
+    ],
+    "size": [
+      181,
+      325
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "chest": {
+    "source_cell": [
+      0,
+      390,
+      362,
+      700
+    ],
+    "trim": [
+      42,
+      45,
+      332,
+      262
+    ],
+    "size": [
+      290,
+      217
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "basket": {
+    "source_cell": [
+      362,
+      390,
+      724,
+      700
+    ],
+    "trim": [
+      41,
+      21,
+      303,
+      274
+    ],
+    "size": [
+      262,
+      253
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "cat": {
+    "source_cell": [
+      724,
+      390,
+      1064,
+      700
+    ],
+    "trim": [
+      28,
+      66,
+      309,
+      243
+    ],
+    "size": [
+      281,
+      177
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "rug": {
+    "source_cell": [
+      1064,
+      390,
+      1448,
+      700
+    ],
+    "trim": [
+      11,
+      79,
+      375,
+      232
+    ],
+    "size": [
+      364,
+      153
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "lamp": {
+    "source_cell": [
+      0,
+      700,
+      362,
+      1086
+    ],
+    "trim": [
+      62,
+      23,
+      316,
+      358
+    ],
+    "size": [
+      254,
+      335
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "mug": {
+    "source_cell": [
+      362,
+      700,
+      724,
+      1086
+    ],
+    "trim": [
+      99,
+      111,
+      292,
+      290
+    ],
+    "size": [
+      193,
+      179
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "ivy": {
+    "source_cell": [
+      724,
+      700,
+      1086,
+      1086
+    ],
+    "trim": [
+      56,
+      14,
+      283,
+      369
+    ],
+    "size": [
+      227,
+      355
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "window_frame": {
+    "source_cell": [
+      1086,
+      700,
+      1448,
+      1086
+    ],
+    "trim": [
+      15,
+      23,
+      323,
+      356
+    ],
+    "size": [
+      308,
+      333
+    ],
+    "kind": "static_sprite",
+    "alpha": true,
+    "status": "v0.2 generated art pass; art-director polish pending"
+  },
+  "floor_tile": {
+    "size": [
+      384,
+      102
+    ],
+    "kind": "native_pixel_floor_extension",
+    "status": "v0.2 code-authored repeatable floor"
+  },
+  "architecture": {
+    "size": [
+      384,
+      432
+    ],
+    "kind": "native_pixel_architecture",
+    "status": "v0.2 code-authored pixel layer"
+  },
+  "harbor_dusk": {
+    "size": [
+      1122,
+      1402
+    ],
+    "kind": "replaceable_outdoor_layer",
+    "status": "v0.2 generated static dusk art"
+  }
+}
