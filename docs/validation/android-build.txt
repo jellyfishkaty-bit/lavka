@@ -1,0 +1,11 @@
+Version: 0.1.1+2
+Flutter 3.47.9 / Dart 3.13.7
+Android SDK 36 / Build Tools 36.0.0 / NDK 28.2.13676358
+Temurin JDK 21.0.13
+flutter pub get --offline: PASS; Android plugin registration generated
+flutter build apk --debug --no-pub: PASS (exit 0)
+verify_debug_apk.py original 0.1.0 APK: correctly REJECTED (missing registration and SQLite plugin)
+verify_debug_apk.py corrected 0.1.1 APK: PASS
+Android applicationId ru.katya.lavka preserved; versionCode 2
+Signature: apksigner verify PASS; SHA-256 signing certificate equals original APK
+Physical phone: NOT TESTED
