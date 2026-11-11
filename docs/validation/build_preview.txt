@@ -1,0 +1,4 @@
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=35911 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=35911 -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts
+Running Gradle task 'assembleDebug'...                             15.9s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk

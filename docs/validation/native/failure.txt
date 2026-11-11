@@ -1,0 +1,1 @@
+Software emulator did not boot within 240 seconds
