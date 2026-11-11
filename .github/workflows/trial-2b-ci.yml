@@ -1,0 +1,45 @@
+name: Trial 2B Flutter pilot
+
+on:
+  push:
+    branches:
+      - art/issue-2-originals
+    paths:
+      - .github/workflows/trial-2b-ci.yml
+      - art_experiments/2b/first_batch/original/trial_source/**
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trial-2b-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: art_experiments/2b/first_batch/original/trial_source
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.9'
+          channel: stable
+      - name: Flutter version
+        run: flutter --version
+      - name: Install locked dependencies
+        run: flutter pub get --enforce-lockfile
+      - name: Analyze
+        run: flutter analyze
+      - name: Test
+        run: flutter test
+      - name: Upload Flutter widget renders
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: trial-2b-widget-renders
+          path: art_experiments/2b/first_batch/original/trial_source/build/test_renders/
+          if-no-files-found: ignore

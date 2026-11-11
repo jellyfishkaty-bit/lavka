@@ -1,0 +1,948 @@
+{
+  "description": "Исходные материалы, сверка с art/pixel-workshop-v2 на 5533339; identical_git_paths означает побайтовое совпадение Git blob, не обязательно тот же путь. PNG не утверждены.",
+  "files": [
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "assets/project_scarf_2b.png",
+      "bytes": 838371,
+      "sha256": "a66b56afc9b0957a7bd07fb4eb9b239b6928449072ece84829e842df676a4724",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "assets/project_blanket_2b.png",
+      "bytes": 1063388,
+      "sha256": "f6b24ac6aa0e4b78da5d97dc3c0243451bfc95eb5b00b91991686090b5f494b8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "assets/project_shawl_2b.png",
+      "bytes": 1255772,
+      "sha256": "2dedb074f1bc49dd886a13e62e140b3746ff51ea399557769fbd8a47bd7be49e",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "assets/project_socks_2b.png",
+      "bytes": 1498339,
+      "sha256": "e3b0ec27c46b82996c49387eb655051952319b6fc202390b1c501d0598dfdd6c",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "assets/project_fabric_2b.png",
+      "bytes": 1084284,
+      "sha256": "509db08d5de8eac038e7ae9492c9c37dbc577684651d36fd8cd8465b6f48579c",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "assets/project_sweater_2b.png",
+      "bytes": 1138761,
+      "sha256": "a3c7c4f3f326302e9346f1305bdb97c6f2d3e98db43f609f7528c02046d7c2c8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "assets/project_toy_2b.png",
+      "bytes": 1160746,
+      "sha256": "1ebc663c80864f68ad885b65eb36398e92533935e3a3063829595d12b0dcf1f9",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "assets/project_stole_2b.png",
+      "bytes": 1267236,
+      "sha256": "afe6ddc157179a4ed27b39a406a49bd37528fe86db19e897fe7aeaec1be3c129",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/pubspec.lock",
+      "bytes": 5824,
+      "sha256": "66a17ec08f84f06a86419aac7a60575c23000a49eedc97db9ff77ff02729d253",
+      "type": ".lock",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/pubspec.yaml",
+      "bytes": 252,
+      "sha256": "171cad09be240d3573bfcea2f287895a1fe569ffddd697fb9046db9ed37f685b",
+      "type": ".yaml",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/test/project_variants_test.dart",
+      "bytes": 2194,
+      "sha256": "15848f43fa157ca3576072bb61601a9d523ac9bf4eb5d3dddb11ffd04fdeb758",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": [
+        "art_experiments/2b/first_batch/project_variants_test.dart"
+      ]
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/test/switcher_test.dart",
+      "bytes": 831,
+      "sha256": "d99926e974c5d5cfaa721493d4a984761d3bef022e4ac687aaead8943c926b5b",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/test/trial_test.dart",
+      "bytes": 2809,
+      "sha256": "0a6bcfb214e8bbbeff790f72194d6331f07acb5ae3f7fb1e4ab4ad38b261ae4e",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/lib/projects_on_desk.dart",
+      "bytes": 2189,
+      "sha256": "3037c8ff354f8f21729f6e81d8be451c0ec373f9774bcb98d59f6413c747a9ec",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": [
+        "art_experiments/2b/first_batch/projects_on_desk.dart"
+      ]
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/lib/scene_layout.dart",
+      "bytes": 4879,
+      "sha256": "e0433158986b62bfcf0fda3cd9c7e74635d49337d8f6dccc990ad030e85f18b3",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/lib/trial.dart",
+      "bytes": 4459,
+      "sha256": "8d60806a475dc89700da42d650461deb3d136bc19c2639d357a1974e67b9de31",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/lib/main.dart",
+      "bytes": 1089,
+      "sha256": "96b13239b59f74e0b735f10df7f8b162b96b0d0a560c52db42e18e4da5d7e51f",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/project_scarf_2b.png",
+      "bytes": 838371,
+      "sha256": "a66b56afc9b0957a7bd07fb4eb9b239b6928449072ece84829e842df676a4724",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/desk_revision.png",
+      "bytes": 815611,
+      "sha256": "0031dd9ad7dd3d5d58a1323c62a75f37c3786e2eb9cd7c6e54aee9321c8ccfc8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/harbor_masked.png",
+      "bytes": 1510879,
+      "sha256": "ddc6807c1214357a2c2593c8c4776c20a0e7f14a8b15288aa01ff06be503183b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/project_blanket_2b.png",
+      "bytes": 1063388,
+      "sha256": "f6b24ac6aa0e4b78da5d97dc3c0243451bfc95eb5b00b91991686090b5f494b8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/window.png",
+      "bytes": 805175,
+      "sha256": "e0974ad5994241f4c6d3d90a7730588df8a725add6fc9de45e3724426dd5f6eb",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/bookcase_revision.png",
+      "bytes": 1426334,
+      "sha256": "7504b765b8d69c22c4f401adb823471b689e9f1318ad5fd43ee187ebbbee96b7",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/walls_floor_revision.png",
+      "bytes": 1270903,
+      "sha256": "c7545d33aaa915b4745f802e3524a16566e2babc6f30b020463334caa06b5d5f",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/project_shawl_2b.png",
+      "bytes": 1255772,
+      "sha256": "2dedb074f1bc49dd886a13e62e140b3746ff51ea399557769fbd8a47bd7be49e",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/project_socks_2b.png",
+      "bytes": 1498339,
+      "sha256": "e3b0ec27c46b82996c49387eb655051952319b6fc202390b1c501d0598dfdd6c",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/project_fabric_2b.png",
+      "bytes": 1084284,
+      "sha256": "509db08d5de8eac038e7ae9492c9c37dbc577684651d36fd8cd8465b6f48579c",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/basket_2a.png",
+      "bytes": 728727,
+      "sha256": "96574c5621f0a37fcc6a93e2412d956bf54b19002b0e75ae1d92d121a5d9fcdc",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/rug_2a.png",
+      "bytes": 967366,
+      "sha256": "efe830cab4ff968ff9db7301abbc54a5351cbc7fa881a998b36aa6d1f812df7b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/chair.png",
+      "bytes": 1508750,
+      "sha256": "9f56c280319454778deff7925ecf42ee1885df38a816610e36993a0a33dfef38",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/cat_2a.png",
+      "bytes": 809874,
+      "sha256": "204f1c5f4c20bf2c93f179605940a4a2816f6e6fd70da3d62463e6ed2f3b2b73",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/project_sweater_2b.png",
+      "bytes": 1138761,
+      "sha256": "a3c7c4f3f326302e9346f1305bdb97c6f2d3e98db43f609f7528c02046d7c2c8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/project_toy_2b.png",
+      "bytes": 1160746,
+      "sha256": "1ebc663c80864f68ad885b65eb36398e92533935e3a3063829595d12b0dcf1f9",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/chest_2a.png",
+      "bytes": 997345,
+      "sha256": "a694e97f528881359ceec8f27d2aaff935c2efe347748006d4995c61bb7b6f55",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "trial_source/assets/images/workshop_trial/project_stole_2b.png",
+      "bytes": 1267236,
+      "sha256": "afe6ddc157179a4ed27b39a406a49bd37528fe86db19e897fe7aeaec1be3c129",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "renders/sweater.png",
+      "bytes": 2298221,
+      "sha256": "481db231eeb10f63504b851cfbcabee6a03c71a5f706818c162b76b46c837178",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "renders/shawl.png",
+      "bytes": 2292419,
+      "sha256": "fda6716eca35691515e4ec685b2ed892dea14e01e0b7023430e8f3f9a81ad1ed",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "renders/toy.png",
+      "bytes": 2285081,
+      "sha256": "c7a9239cad17dfa68992ee7ae9e2cd253e343c63deb3ae2252e6284cbd30f6ac",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "renders/socks.png",
+      "bytes": 2296752,
+      "sha256": "b8246e6319de09285e8969d72a221b2820488974b704ee2141e9beee04a2be9a",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "renders/scarf.png",
+      "bytes": 2289286,
+      "sha256": "a74947fc6a543f2d5e8318e3c07c60c8c08e2a6892a26dc1c5bb1b1eca7395f7",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "renders/fabric.png",
+      "bytes": 2297492,
+      "sha256": "2ebc15e12783275929a007a16a4b3ec9aaeff715ed4d754e90e13b115d4617e2",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "renders/blanket.png",
+      "bytes": 2296044,
+      "sha256": "ef181f9edf498147bad0875ee7909b06d78efd5a557645f32e6453a33d1eff9b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "renders/stole.png",
+      "bytes": 2295108,
+      "sha256": "2734c03ec67a9143685cbab346313c28800247fdbfd1c0c024f52b1b6076c3cf",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "mobile/sweater.png",
+      "bytes": 318643,
+      "sha256": "55e3bf2349a8652e915594cec3aec2f785340c9d1439361a85968b22af97720b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "mobile/shawl.png",
+      "bytes": 318062,
+      "sha256": "841de43f642b09b67998f789f009c4460c1fc84abfe8bad56bf9487eee2dbe43",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "mobile/toy.png",
+      "bytes": 317189,
+      "sha256": "546c9f66b4bd192d338e919cad1e279b2bae16e492df108c0435030886dfeb7c",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "mobile/socks.png",
+      "bytes": 318471,
+      "sha256": "4b16fa292c9f0a1b3de9342452e289b173012c36e5c9fc4c22613aa771444147",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "mobile/scarf.png",
+      "bytes": 317460,
+      "sha256": "abc6cb71e549c17d598ad10b5a6a2e142bf64155b5e18e3db83e9405abd0ae0f",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "mobile/fabric.png",
+      "bytes": 318663,
+      "sha256": "8922a9af37ee23e6faf8c2da82079a81cf4de82e84031253ae5f53dccde6718f",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "mobile/blanket.png",
+      "bytes": 318248,
+      "sha256": "a988e43c2e123a8bc110d0b66ba271fa8901814ac89ce8bcbdf32a836f9fe7ad",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "mobile/stole.png",
+      "bytes": 318252,
+      "sha256": "570bce83d2600922d6dbae3cc63fa3228b33f9a911d3a54074cd728dd874fb89",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "REPORT_2B_RU.md",
+      "bytes": 5024,
+      "sha256": "a50407a23bd9db18dbf384a8ac2cd0921f098b8eeb2426ada1cf69a7c2e6c4c0",
+      "type": ".md",
+      "status": "исторический материал",
+      "identical_git_paths": [
+        "art_experiments/2b/first_batch/REPORT_2B_RU.md"
+      ]
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "comparison_8.png",
+      "bytes": 345444,
+      "sha256": "3c380f145e4a407c37bb46c043e6e530ce19973b23fe97c62d72fd1a5961c4fe",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_2B_trial_all.zip",
+      "archive_path": "sprite_atlas.png",
+      "bytes": 453792,
+      "sha256": "f34ae9ec0efe2928102df325c84f328f47cdbac4bd4360e81dece17f9fd2789c",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "assets/stole_exemplar.png",
+      "bytes": 1293567,
+      "sha256": "4eff80f462e16d3382a96c502e427311cd49c09c522d5b3de34818e96ea853da",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "assets/stole_trim.png",
+      "bytes": 1088409,
+      "sha256": "55cc611ec7832239a0f42cfbd89a1da14643e73c151e3dffd3b3ed63274211b8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/pubspec.lock",
+      "bytes": 5824,
+      "sha256": "66a17ec08f84f06a86419aac7a60575c23000a49eedc97db9ff77ff02729d253",
+      "type": ".lock",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/pubspec.yaml",
+      "bytes": 252,
+      "sha256": "171cad09be240d3573bfcea2f287895a1fe569ffddd697fb9046db9ed37f685b",
+      "type": ".yaml",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/test/trial_test.dart",
+      "bytes": 2817,
+      "sha256": "6671b324705bb1e097acfdcde5dec701289aecdeeb5d52cb5affb3550168568e",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/lib/scene_layout.dart",
+      "bytes": 4879,
+      "sha256": "e0433158986b62bfcf0fda3cd9c7e74635d49337d8f6dccc990ad030e85f18b3",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/lib/trial.dart",
+      "bytes": 3379,
+      "sha256": "85aeeaddd525b347efcf29b4c0b22db5e7835cff4a5c734577f6921c9ae547ab",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/desk_revision.png",
+      "bytes": 815611,
+      "sha256": "0031dd9ad7dd3d5d58a1323c62a75f37c3786e2eb9cd7c6e54aee9321c8ccfc8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/harbor_masked.png",
+      "bytes": 1510879,
+      "sha256": "ddc6807c1214357a2c2593c8c4776c20a0e7f14a8b15288aa01ff06be503183b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/window.png",
+      "bytes": 805175,
+      "sha256": "e0974ad5994241f4c6d3d90a7730588df8a725add6fc9de45e3724426dd5f6eb",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/bookcase_revision.png",
+      "bytes": 1426334,
+      "sha256": "7504b765b8d69c22c4f401adb823471b689e9f1318ad5fd43ee187ebbbee96b7",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/walls_floor_revision.png",
+      "bytes": 1270903,
+      "sha256": "c7545d33aaa915b4745f802e3524a16566e2babc6f30b020463334caa06b5d5f",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/basket_2a.png",
+      "bytes": 728727,
+      "sha256": "96574c5621f0a37fcc6a93e2412d956bf54b19002b0e75ae1d92d121a5d9fcdc",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/stole_exemplar.png",
+      "bytes": 1088409,
+      "sha256": "55cc611ec7832239a0f42cfbd89a1da14643e73c151e3dffd3b3ed63274211b8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/rug_2a.png",
+      "bytes": 967366,
+      "sha256": "efe830cab4ff968ff9db7301abbc54a5351cbc7fa881a998b36aa6d1f812df7b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/chair.png",
+      "bytes": 1508750,
+      "sha256": "9f56c280319454778deff7925ecf42ee1885df38a816610e36993a0a33dfef38",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/cat_2a.png",
+      "bytes": 809874,
+      "sha256": "204f1c5f4c20bf2c93f179605940a4a2816f6e6fd70da3d62463e6ed2f3b2b73",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "source/assets/images/workshop_trial/chest_2a.png",
+      "bytes": 997345,
+      "sha256": "a694e97f528881359ceec8f27d2aaff935c2efe347748006d4995c61bb7b6f55",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "REPORT_RU.md",
+      "bytes": 2631,
+      "sha256": "dbbe246e57c58d5c3108d860fa0fa4e11e08820763f88eca9ca64e511f0db731",
+      "type": ".md",
+      "status": "исторический материал",
+      "identical_git_paths": [
+        "art_experiments/2b/exemplar/REPORT_RU.md"
+      ]
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "concept_crop.png",
+      "bytes": 184286,
+      "sha256": "430324e14000d438725bf5f2aa73651a8dbaf34f6f7336174366285bc8ce0bd3",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "flame_full.png",
+      "bytes": 2087619,
+      "sha256": "d02460f7ef8c0cf55326c39c976e5d786d452101738b6a758f5c3f68e5353aaa",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "mobile_393.png",
+      "bytes": 334759,
+      "sha256": "c3390d4eeb820ca4a650e1210643e7d3b607a9eff86f65e4963ef6891b65b69b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_exemplar_stole_trial.zip",
+      "archive_path": "comparison_equal.png",
+      "bytes": 699821,
+      "sha256": "69d16c42990a797ff21ecec1dc51748e25f2d6f94d7f392317756507d8089add",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "coordinate_preview_393.png",
+      "bytes": 324983,
+      "sha256": "a96498153f1a626b2fc24baa4d725d78cd872d9f5e3770d0718273bfd85f97db",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "stole_6x.png",
+      "bytes": 10997,
+      "sha256": "a468c51588042fedaaf805cf2820d08839ffe4654f57d52d0fd30e2f2d318f81",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "stole_native_82x124.png",
+      "bytes": 3269,
+      "sha256": "f17dae4c0fa71c7710c0e29ec8e3e6fb84ce3e281d51b10e94d0e5d01d98ccb9",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": [
+        "art_experiments/2b/native_grid/stole_native_82x124.png"
+      ]
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "coordinate_preview_320.png",
+      "bytes": 231305,
+      "sha256": "a87ac2899e56d3c9817e05957c41a559f78a5b55915df57a925e87cef9cc62ef",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "comparison_grid.png",
+      "bytes": 48125,
+      "sha256": "5b54b38d0348deafd4c1829bf6ca0d21482e7d35474e6ac2eeca2842d47eb2cf",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "REPORT_RU.md",
+      "bytes": 4168,
+      "sha256": "d6ee44afd60b30086ef2234906492a06f9977dc1b3b8fd7cff93f796c7454eeb",
+      "type": ".md",
+      "status": "исторический материал",
+      "identical_git_paths": [
+        "art_experiments/2b/native_grid/REPORT_RU.md"
+      ]
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "draw_stole.py",
+      "bytes": 2617,
+      "sha256": "55c2b650ca8071ee0be26d6c794837df634b5adf497ebbf3e4486709cc026630",
+      "type": ".py",
+      "status": "исторический материал",
+      "identical_git_paths": [
+        "art_experiments/2b/native_grid/draw_stole.py"
+      ]
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "preview.py",
+      "bytes": 1986,
+      "sha256": "89d71489ff865ac753c09216e6a83ac499975a2173d292eece5453e3a5abe169",
+      "type": ".py",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/pubspec.lock",
+      "bytes": 5824,
+      "sha256": "66a17ec08f84f06a86419aac7a60575c23000a49eedc97db9ff77ff02729d253",
+      "type": ".lock",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/pubspec.yaml",
+      "bytes": 252,
+      "sha256": "171cad09be240d3573bfcea2f287895a1fe569ffddd697fb9046db9ed37f685b",
+      "type": ".yaml",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/lib/trial.dart",
+      "bytes": 3375,
+      "sha256": "3542c918ab35cc452dd13d4c93de12950bc50223f8b8c381bbf988b4812df535",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/lib/scene_layout.dart",
+      "bytes": 4879,
+      "sha256": "e0433158986b62bfcf0fda3cd9c7e74635d49337d8f6dccc990ad030e85f18b3",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/test/trial_test.dart",
+      "bytes": 2817,
+      "sha256": "6671b324705bb1e097acfdcde5dec701289aecdeeb5d52cb5affb3550168568e",
+      "type": ".dart",
+      "status": "исторический материал",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/basket_2a.png",
+      "bytes": 728727,
+      "sha256": "96574c5621f0a37fcc6a93e2412d956bf54b19002b0e75ae1d92d121a5d9fcdc",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/walls_floor_revision.png",
+      "bytes": 1270903,
+      "sha256": "c7545d33aaa915b4745f802e3524a16566e2babc6f30b020463334caa06b5d5f",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/chest_2a.png",
+      "bytes": 997345,
+      "sha256": "a694e97f528881359ceec8f27d2aaff935c2efe347748006d4995c61bb7b6f55",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/stole_exemplar.png",
+      "bytes": 1088409,
+      "sha256": "55cc611ec7832239a0f42cfbd89a1da14643e73c151e3dffd3b3ed63274211b8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/chair.png",
+      "bytes": 1508750,
+      "sha256": "9f56c280319454778deff7925ecf42ee1885df38a816610e36993a0a33dfef38",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/cat_2a.png",
+      "bytes": 809874,
+      "sha256": "204f1c5f4c20bf2c93f179605940a4a2816f6e6fd70da3d62463e6ed2f3b2b73",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/harbor_masked.png",
+      "bytes": 1510879,
+      "sha256": "ddc6807c1214357a2c2593c8c4776c20a0e7f14a8b15288aa01ff06be503183b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/bookcase_revision.png",
+      "bytes": 1426334,
+      "sha256": "7504b765b8d69c22c4f401adb823471b689e9f1318ad5fd43ee187ebbbee96b7",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/desk_revision.png",
+      "bytes": 815611,
+      "sha256": "0031dd9ad7dd3d5d58a1323c62a75f37c3786e2eb9cd7c6e54aee9321c8ccfc8",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/window.png",
+      "bytes": 805175,
+      "sha256": "e0974ad5994241f4c6d3d90a7730588df8a725add6fc9de45e3724426dd5f6eb",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/rug_2a.png",
+      "bytes": 967366,
+      "sha256": "efe830cab4ff968ff9db7301abbc54a5351cbc7fa881a998b36aa6d1f812df7b",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "flame_source/assets/images/workshop_trial/stole_native.png",
+      "bytes": 3269,
+      "sha256": "f17dae4c0fa71c7710c0e29ec8e3e6fb84ce3e281d51b10e94d0e5d01d98ccb9",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": [
+        "art_experiments/2b/native_grid/stole_native_82x124.png"
+      ]
+    },
+    {
+      "archive": "Lavka_native_grid_trial.zip",
+      "archive_path": "concept_crop.png",
+      "bytes": 184286,
+      "sha256": "430324e14000d438725bf5f2aa73651a8dbaf34f6f7336174366285bc8ce0bd3",
+      "type": ".png",
+      "status": "не утверждено",
+      "identical_git_paths": []
+    }
+  ]
+}
