@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../app/theme.dart';
 import '../../app/workshop_controller.dart';
 import 'project.dart';
-import 'project_icon.dart';
 
 class CreateProjectPage extends StatefulWidget {
   const CreateProjectPage({super.key, required this.controller});
@@ -15,7 +14,7 @@ class CreateProjectPage extends StatefulWidget {
 class _CreateProjectPageState extends State<CreateProjectPage> {
   final _form = GlobalKey<FormState>();
   final _title = TextEditingController();
-  String _category = 'Шаль', _craft = 'needles', _iconId = 'shawl';
+  String _category = 'Шаль', _craft = 'needles';
   int _palette = 0;
   bool _saving = false;
   String? _error;
@@ -35,7 +34,7 @@ class _CreateProjectPageState extends State<CreateProjectPage> {
       title: _title.text,
       category: _category,
       craftType: _craft,
-      iconId: _iconId,
+      iconId: iconIdForCategory(_category),
       palette: _palette,
     );
     if (!mounted) return;
@@ -96,16 +95,7 @@ class _CreateProjectPageState extends State<CreateProjectPage> {
                     initialValue: _category,
                     decoration: const InputDecoration(labelText: 'Категория'),
                     items:
-                        [
-                              'Шаль',
-                              'Шарф',
-                              'Палантин',
-                              'Одежда',
-                              'Аксессуар',
-                              'Для дома',
-                              'Игрушка',
-                              'Другое',
-                            ]
+                        projectCategories
                             .map(
                               (s) => DropdownMenuItem(value: s, child: Text(s)),
                             )
@@ -128,49 +118,6 @@ class _CreateProjectPageState extends State<CreateProjectPage> {
                         : (s) => setState(() => _craft = s!),
                   ),
                   const SizedBox(height: 20),
-                  Text(
-                    'Знак проекта',
-                    style: Theme.of(context).textTheme.titleLarge,
-                  ),
-                  const Text('Выбирается независимо от категории.'),
-                  const SizedBox(height: 12),
-                  Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    children: projectIcons
-                        .map(
-                          (icon) => Semantics(
-                            selected: icon.id == _iconId,
-                            child: Tooltip(
-                              message: icon.label,
-                              child: InkWell(
-                                key: ValueKey('icon-${icon.id}'),
-                                onTap: _saving
-                                    ? null
-                                    : () => setState(() => _iconId = icon.id),
-                                child: Container(
-                                  padding: const EdgeInsets.all(3),
-                                  decoration: BoxDecoration(
-                                    border: Border.all(
-                                      width: 3,
-                                      color: icon.id == _iconId
-                                          ? wine
-                                          : Colors.transparent,
-                                    ),
-                                  ),
-                                  child: PixelIcon(
-                                    icon: icon,
-                                    palette: _palette,
-                                    size: 52,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        )
-                        .toList(),
-                  ),
-                  const SizedBox(height: 16),
                   const Text('Цвет подложки'),
                   Wrap(
                     spacing: 8,

@@ -86,7 +86,7 @@ class WorkshopRepository {
     if (trimmed.isEmpty ||
         trimmed.length > 80 ||
         category.trim().isEmpty ||
-        !projectIcons.any((i) => i.id == iconId) ||
+        !(iconId == 'fabric' || projectIcons.any((i) => i.id == iconId)) ||
         palette < 0 ||
         palette > 3 ||
         !['needles', 'hook', 'other'].contains(craftType)) {
