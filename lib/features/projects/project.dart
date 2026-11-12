@@ -1,3 +1,22 @@
+/// New projects derive their desk artwork from a specific product category.
+/// A yarn icon provides a neutral fallback for broad or unknown categories;
+/// the desk scene intentionally renders no Gallery 2 item for that icon.
+const categoryIconIds = <String, String>{
+  'Шаль': 'shawl',
+  'Шарф': 'scarf',
+  'Палантин': 'stole',
+  'Свитер': 'sweater',
+  'Носки': 'socks',
+  'Плед': 'blanket',
+  'Игрушка': 'toy',
+  'Полотно': 'fabric',
+};
+const projectCategories = [
+  'Шаль', 'Шарф', 'Палантин', 'Свитер', 'Носки', 'Плед',
+  'Игрушка', 'Полотно', 'Одежда', 'Аксессуар', 'Для дома', 'Другое',
+];
+String iconIdForCategory(String category) => categoryIconIds[category] ?? 'yarn';
+
 class ProjectIcon {
   const ProjectIcon(this.id, this.label);
   final String id;

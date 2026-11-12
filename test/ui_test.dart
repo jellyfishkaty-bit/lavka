@@ -65,8 +65,10 @@ void main() {
     await settle(tester);
     expect(find.byType(CreateProjectPage), findsOneWidget);
     await tester.enterText(find.byType(TextFormField), 'Палантин Миссони');
-    await tester.ensureVisible(find.byKey(const ValueKey('icon-stole')));
-    await tester.tap(find.byKey(const ValueKey('icon-stole')));
+    await tester.tap(find.byType(DropdownButtonFormField<String>).first);
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Палантин').last);
+    await tester.pumpAndSettle();
     FocusManager.instance.primaryFocus?.unfocus();
     tester.testTextInput.hide();
     await settle(tester);
