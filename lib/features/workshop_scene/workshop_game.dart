@@ -5,12 +5,37 @@ import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 
 import 'scene_layout.dart';
+import 'gallery2_desk.dart';
 
 /// Presentation only. No SQL, project state, rewards or network access.
 /// Outdoor view, architecture, furniture, lighting and effects are independent.
 class WorkshopGame extends FlameGame {
   WorkshopGame({this.harborAsset = 'harbor_dusk.png'});
   final String harborAsset;
+  // Independent presentation of owner-approved artwork, never stored in SQLite.
+  final Map<Gallery2Item, Sprite> _approvedArtwork = {};
+  SpriteComponent? activeDeskArtwork;
+  String? _selectedProjectIcon;
+
+  void selectProjectIcon(String? iconId) {
+    if (_selectedProjectIcon == iconId) return;
+    _selectedProjectIcon = iconId;
+    _positionDeskArtwork();
+  }
+
+  void _positionDeskArtwork() {
+    final component = activeDeskArtwork;
+    if (component == null) return;
+    final item = Gallery2Item.fromIconId(_selectedProjectIcon);
+    if (item == null) {
+      component.size = Vector2.zero();
+      return;
+    }
+    final rect = item.approvedSceneRect.shift(Offset(0, layout.shift('desk')));
+    component.sprite = _approvedArtwork[item];
+    component.position = Vector2(rect.left, rect.top);
+    component.size = Vector2(rect.width, rect.height);
+  }
   RoomViewport layout = RoomViewport(const Size(384, 432));
   @override
   void onGameResize(Vector2 size) {
@@ -32,6 +57,7 @@ class WorkshopGame extends FlameGame {
     for (final sprite in world.children.whereType<RoomSprite>()) {
       sprite.position.y = layout.objectBounds(sprite.definition).top;
     }
+    _positionDeskArtwork();
   }
 
   double elapsed = 0;
@@ -68,6 +94,20 @@ class WorkshopGame extends FlameGame {
     await world.add(
       _Harbor(await loadSprite('workshop_v2/$harborAsset'))..priority = 10,
     );
+    // Preserve approved Gallery #2 textures exactly. Desk z=32, artwork z=33.
+    for (final item in Gallery2Item.values) {
+      _approvedArtwork[item] = await loadSprite('gallery2/${item.assetFile}');
+    }
+    activeDeskArtwork = SpriteComponent(
+      sprite: _approvedArtwork[Gallery2Item.sweater],
+      size: Vector2.zero(),
+      priority: 33,
+      paint: Paint()
+        ..filterQuality = FilterQuality.none
+        ..isAntiAlias = false,
+    );
+    await world.add(activeDeskArtwork!);
+    _positionDeskArtwork();
     await world.add(_Rain(() => elapsed)..priority = 15);
     await world.add(
       _LampLight(() => elapsed)

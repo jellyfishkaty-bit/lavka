@@ -55,6 +55,7 @@ class _WorkshopShellState extends State<WorkshopShell>
   }
 
   void _syncScene() {
+    game.selectProjectIcon(c.snapshot?.active?.iconId);
     game.presentation(
       active: _foreground && tab == 0 && _covered == 0,
       reducedMotion: c.snapshot?.reducedMotion ?? false,

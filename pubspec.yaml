@@ -42,5 +42,6 @@ flutter:
   - assets/fonts/Montserrat-OFL.txt
   - assets/data/schema_v1.sql
   - assets/images/workshop_v2/
+  - assets/images/gallery2/
   - assets/images/icons/
   - assets/fonts/Handjet-OFL.txt
