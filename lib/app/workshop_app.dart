@@ -55,6 +55,7 @@ class _WorkshopShellState extends State<WorkshopShell>
   }
 
   void _syncScene() {
+    game.selectProjectIcon(c.snapshot?.active?.iconId);
     game.presentation(
       active: _foreground && tab == 0 && _covered == 0,
       reducedMotion: c.snapshot?.reducedMotion ?? false,
@@ -227,7 +228,16 @@ class _WorkshopShellState extends State<WorkshopShell>
                   ),
                 ),
               // Persisted state only; no misleading 'saved' status before commit.
-              if (c.pending > 0) const LinearProgressIndicator(minHeight: 2),
+              // Keep the save indicator's layout slot even when idle.
+              // Without it, each +1/-1/undo changes room height by 2 px,
+              // triggering ShopLayout and Flame viewport repositioning.
+              SizedBox(
+                key: const ValueKey('save-progress-slot'),
+                height: 2,
+                child: c.pending > 0
+                    ? const LinearProgressIndicator(minHeight: 2)
+                    : const SizedBox.shrink(),
+              ),
               Expanded(
                 child: s == null
                     ? Center(

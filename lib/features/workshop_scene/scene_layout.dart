@@ -90,32 +90,18 @@ Path windowOpeningPath() => Path()
   )
   ..close();
 
+// Gallery #2 approved backdrop, directly matching the pilot trial.dart.
 const roomObjects = <RoomObject>[
-  RoomObject(
-    'architecture',
-    'architecture.png',
-    Rect.fromLTWH(0, 0, 384, 432),
-    0,
-  ),
-  RoomObject(
-    'window_frame',
-    'window_frame.png',
-    Rect.fromLTWH(3, 10, 194, 212),
-    20,
-  ),
-  RoomObject('bookcase', 'bookcase.png', Rect.fromLTWH(183, 10, 178, 248), 22),
-  RoomObject('ivy_left', 'ivy.png', Rect.fromLTWH(-6, -7, 45, 99), 24),
-  RoomObject('ivy_middle', 'ivy.png', Rect.fromLTWH(165, -17, 43, 118), 24),
-  RoomObject('ivy_right', 'ivy.png', Rect.fromLTWH(354, -2, 37, 109), 24),
-  RoomObject('rug', 'rug.png', Rect.fromLTWH(30, 333, 324, 92), 25),
-  RoomObject('chair', 'chair.png', Rect.fromLTWH(0, 216, 111, 139), 30),
-  RoomObject('desk', 'desk.png', Rect.fromLTWH(107, 211, 217, 174), 32),
-  RoomObject('mailbox', 'mailbox.png', Rect.fromLTWH(331, 165, 48, 80), 34),
-  RoomObject('lamp', 'lamp.png', Rect.fromLTWH(131, 166, 60, 81), 40),
-  RoomObject('mug', 'mug.png', Rect.fromLTWH(245, 227, 25, 23), 41),
-  RoomObject('basket', 'basket.png', Rect.fromLTWH(117, 334, 69, 71), 45),
-  RoomObject('chest', 'chest.png', Rect.fromLTWH(275, 331, 106, 80), 46),
-  RoomObject('cat', 'cat.png', Rect.fromLTWH(39, 366, 94, 61), 48),
+  RoomObject('walls', 'walls_floor_revision.png', Rect.fromLTWH(0, 0, 384, 480), 0),
+  RoomObject('harbor', 'harbor_masked.png', Rect.fromLTWH(5, 8, 176, 220), 10),
+  RoomObject('window', 'window.png', Rect.fromLTWH(5, 8, 176, 220), 20),
+  RoomObject('bookcase', 'bookcase_revision.png', Rect.fromLTWH(151, 10, 247, 309), 22),
+  RoomObject('rug', 'rug_2a.png', Rect.fromLTWH(12, 329, 360, 101.17), 25),
+  RoomObject('chair', 'chair.png', Rect.fromLTWH(0, 210, 125, 151), 30),
+  RoomObject('desk', 'desk_revision.png', Rect.fromLTWH(97, 215, 240, 120), 32),
+  RoomObject('basket', 'basket_2a.png', Rect.fromLTWH(117, 315, 70, 87.1), 45),
+  RoomObject('chest', 'chest_2a.png', Rect.fromLTWH(266, 326, 109, 85.26), 46),
+  RoomObject('cat', 'cat_2a.png', Rect.fromLTWH(25, 363, 104, 67.91), 48),
 ];
 
 const roomTargets = <RoomTarget>[

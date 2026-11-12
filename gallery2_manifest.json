@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "status": "ART_APPROVED_8_OF_8_FLUTTER_NOT_RENDERED",
+  "approved_reference_views": {
+    "first_trio": "Lavka_gallery2_items_lowered_20px_mockup.png",
+    "second_five": "Lavka_gallery2_three_more_down_5px_review.png"
+  },
+  "view_size_px": {
+    "width": 345,
+    "height": 433
+  },
+  "viewport_target_px": {
+    "width": 393,
+    "height": 493
+  },
+  "assets": [
+    {
+      "id": "sweater",
+      "label": "Свитер",
+      "asset": "assets/images/gallery2/sweater.png",
+      "sha256": "8793e35ba6d219be003c9c06aef93b5ee00c9c3896dd7633715fa256aa1c7b2f",
+      "png_width": 285,
+      "png_height": 192,
+      "reference_group": "first_trio",
+      "offset_from_first_comparison": "+20",
+      "rect_in_345x433": {
+        "x": 134,
+        "y": 190,
+        "width": 95,
+        "height": 64
+      }
+    },
+    {
+      "id": "socks",
+      "label": "Носки",
+      "asset": "assets/images/gallery2/socks.png",
+      "sha256": "c8531b86f6802df9de69dc1112703b0e2aea9020e9eb1a612337f399a69e468c",
+      "png_width": 252,
+      "png_height": 183,
+      "reference_group": "first_trio",
+      "offset_from_first_comparison": "+20",
+      "rect_in_345x433": {
+        "x": 141,
+        "y": 195,
+        "width": 84,
+        "height": 61
+      }
+    },
+    {
+      "id": "blanket",
+      "label": "Плед",
+      "asset": "assets/images/gallery2/blanket.png",
+      "sha256": "7c60a349fc33ee179d32dbe1c0defa0304deed3381240fedab2083a7d6e7d4bf",
+      "png_width": 297,
+      "png_height": 159,
+      "reference_group": "first_trio",
+      "offset_from_first_comparison": "+20",
+      "rect_in_345x433": {
+        "x": 130,
+        "y": 204,
+        "width": 99,
+        "height": 53
+      }
+    },
+    {
+      "id": "toy",
+      "label": "Игрушка",
+      "asset": "assets/images/gallery2/toy.png",
+      "sha256": "f695d43b26cd86d670951b9ac534dfa69130c8df0709114eeb292fcc2c87dca9",
+      "png_width": 351,
+      "png_height": 228,
+      "reference_group": "second_five",
+      "offset_from_first_comparison": "0",
+      "rect_in_345x433": {
+        "x": 140,
+        "y": 184,
+        "width": 117,
+        "height": 76
+      }
+    },
+    {
+      "id": "shawl",
+      "label": "Шаль",
+      "asset": "assets/images/gallery2/shawl.png",
+      "sha256": "32a6d5395dac47101d3ac3259068efee787a6483c66b9f6c30b595c0515d183b",
+      "png_width": 366,
+      "png_height": 174,
+      "reference_group": "second_five",
+      "offset_from_first_comparison": "+20",
+      "rect_in_345x433": {
+        "x": 131,
+        "y": 212,
+        "width": 122,
+        "height": 58
+      }
+    },
+    {
+      "id": "scarf",
+      "label": "Шарф",
+      "asset": "assets/images/gallery2/scarf.png",
+      "sha256": "1683e338baef5b0b30476fdb8f3bd0e5d03f5504499eddbdb2c66fa8d20dfdcd",
+      "png_width": 300,
+      "png_height": 207,
+      "reference_group": "second_five",
+      "offset_from_first_comparison": "+25",
+      "rect_in_345x433": {
+        "x": 139,
+        "y": 206,
+        "width": 100,
+        "height": 69
+      }
+    },
+    {
+      "id": "fabric",
+      "label": "Полотно",
+      "asset": "assets/images/gallery2/fabric.png",
+      "sha256": "c2622197040f75785af89d4d2ae0081e0d4ade2377218eb321117c085a269811",
+      "png_width": 363,
+      "png_height": 204,
+      "reference_group": "second_five",
+      "offset_from_first_comparison": "+25",
+      "rect_in_345x433": {
+        "x": 129,
+        "y": 216,
+        "width": 121,
+        "height": 68
+      }
+    },
+    {
+      "id": "stole",
+      "label": "Ранний палантин",
+      "asset": "assets/images/gallery2/stole.png",
+      "sha256": "9fe41b2d00732a167e8544cb95a9e4e7df0a253352eb37ec0fee01206bdb1497",
+      "png_width": 354,
+      "png_height": 237,
+      "reference_group": "second_five",
+      "offset_from_first_comparison": "+25",
+      "rect_in_345x433": {
+        "x": 129,
+        "y": 206,
+        "width": 118,
+        "height": 79
+      }
+    }
+  ]
+}
