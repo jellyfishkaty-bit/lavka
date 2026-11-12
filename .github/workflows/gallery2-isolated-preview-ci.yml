@@ -27,6 +27,7 @@ jobs:
       # This MUST be the first step, before checkout, Flutter setup, or dependencies.
       # A failure here blocks all subsequent steps. Never call the metadata endpoints.
       - name: Install and verify metadata network deny rules
+        working-directory: ${{ github.workspace }}
         run: |
           set -euo pipefail
           sudo iptables -w -I OUTPUT 1 -d 169.254.0.0/16 -j REJECT
