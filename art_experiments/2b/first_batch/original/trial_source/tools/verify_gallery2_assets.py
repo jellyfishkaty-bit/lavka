@@ -16,7 +16,7 @@ for item in data["assets"]:
         failures.append(f"{name}: missing {item['asset']}")
         continue
     raw = file.read_bytes()
-    if len(raw) < 29 or raw[:8] != b"\\x89PNG\\r\\n\\x1a\\n":
+    if len(raw) < 29 or raw[:8] != b"\x89PNG\r\n\x1a\n":
         failures.append(f"{name}: invalid PNG signature")
         continue
     w, h, depth, color, *_ = struct.unpack(">IIBBBBB", raw[16:29])
