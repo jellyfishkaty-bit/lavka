@@ -1,0 +1,79 @@
+name: Gallery 2 - isolated Flutter preview
+
+on:
+  push:
+    branches:
+      - art/gallery2-desk-preview
+    paths:
+      - '.github/workflows/gallery2-isolated-preview-ci.yml'
+      - 'art_experiments/2b/first_batch/original/trial_source/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gallery2-preview-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  gallery2:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: art_experiments/2b/first_batch/original/trial_source
+        shell: bash
+    steps:
+      # This MUST be the first step, before checkout, Flutter setup, or dependencies.
+      # A failure here blocks all subsequent steps. Never call the metadata endpoints.
+      - name: Install and verify metadata network deny rules
+        run: |
+          set -euo pipefail
+          sudo iptables -w -I OUTPUT 1 -d 169.254.0.0/16 -j REJECT
+          sudo iptables -w -I OUTPUT 1 -d 100.100.100.200/32 -j REJECT
+          sudo ip6tables -w -I OUTPUT 1 -d fe80::/10 -j REJECT
+          sudo ip6tables -w -I OUTPUT 1 -d fd00:ec2::254/128 -j REJECT
+          sudo iptables -w -C OUTPUT -d 169.254.0.0/16 -j REJECT
+          sudo iptables -w -C OUTPUT -d 100.100.100.200/32 -j REJECT
+          sudo ip6tables -w -C OUTPUT -d fe80::/10 -j REJECT
+          sudo ip6tables -w -C OUTPUT -d fd00:ec2::254/128 -j REJECT
+          echo "Metadata-deny rules installed and verified; no endpoint contacted."
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Verify eight approved PNGs offline
+        run: python3 -I tools/verify_gallery2_assets.py
+
+      - name: Install pinned Flutter from known-good pilot
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.9'
+          channel: stable
+
+      - name: Re-verify metadata network deny rules
+        run: |
+          set -euo pipefail
+          sudo iptables -w -C OUTPUT -d 169.254.0.0/16 -j REJECT
+          sudo iptables -w -C OUTPUT -d 100.100.100.200/32 -j REJECT
+          sudo ip6tables -w -C OUTPUT -d fe80::/10 -j REJECT
+          sudo ip6tables -w -C OUTPUT -d fd00:ec2::254/128 -j REJECT
+
+      - name: Install locked dependencies
+        run: flutter pub get --enforce-lockfile
+
+      - name: Analyze trial scene
+        run: flutter analyze
+
+      - name: Render eight verified Gallery 2 frames at 393 by 493
+        run: flutter test test/gallery2_preview_test.dart
+
+      - name: Upload actual Flutter Gallery 2 screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gallery2-flutter-393x493-screenshots
+          path: art_experiments/2b/first_batch/original/trial_source/build/gallery2_renders/*.png
+          if-no-files-found: warn
+          retention-days: 14
