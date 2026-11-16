@@ -401,7 +401,7 @@ class _WorkshopShellState extends State<WorkshopShell>
       if (c.snapshot!.projects.isEmpty)
         const Paper(
           child: Text(
-            'В корзине пока пусто. Добавьте первую работу и выберите её пиксельный знак.',
+            'В корзине пока пусто. Добавьте первую работу и выберите её категорию.',
           ),
         ),
       for (final p in c.snapshot!.projects)

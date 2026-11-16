@@ -22,6 +22,19 @@ void main() {
     }
   });
 
+  test('fabric card uses existing artwork without changing legacy icons', () {
+    Project project(String iconId) => Project(
+      id: 1, title: 'Тест', category: 'Полотно', craftType: 'needles',
+      iconId: iconId, palette: 0, currentRow: 0,
+    );
+    expect(project('fabric').icon.id, 'fabric');
+    expect(project('fabric').icon.label, 'Полотно');
+    expect(project('fabric').icon.asset, 'assets/images/gallery2/fabric.png');
+    expect(project('socks').icon.asset, 'assets/images/icons/socks.png');
+    expect(project('yarn').icon.id, 'yarn');
+    expect(project('unknown').icon.id, 'yarn');
+  });
+
   test('new category projects and legacy icons retain independent counters', () async {
     final repo = await WorkshopRepository.open(
       factory: databaseFactoryFfiNoIsolate,

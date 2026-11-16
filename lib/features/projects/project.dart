@@ -18,10 +18,11 @@ const projectCategories = [
 String iconIdForCategory(String category) => categoryIconIds[category] ?? 'yarn';
 
 class ProjectIcon {
-  const ProjectIcon(this.id, this.label);
+  const ProjectIcon(this.id, this.label, {this.assetPath});
   final String id;
   final String label;
-  String get asset => 'assets/images/icons/$id.png';
+  final String? assetPath;
+  String get asset => assetPath ?? 'assets/images/icons/$id.png';
 }
 
 const projectIcons = [
@@ -56,7 +57,10 @@ class Project {
   final int id;
   final String title, category, craftType, iconId;
   final int palette, currentRow;
-  ProjectIcon get icon => projectIcons.firstWhere(
+  ProjectIcon get icon => iconId == 'fabric'
+      ? const ProjectIcon('fabric', 'Полотно',
+          assetPath: 'assets/images/gallery2/fabric.png')
+      : projectIcons.firstWhere(
     (i) => i.id == iconId,
     orElse: () => projectIcons[10],
   );
